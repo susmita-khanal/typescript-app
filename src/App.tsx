@@ -145,7 +145,7 @@ const App: FC = () => {
                         </div>
                         <IoIosArrowForward className="arrow" />
                     </div>
-                    {/* <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit}>
                         <div className="input-container">
                             <FaTasks className="icon" />
                             <input
@@ -154,7 +154,7 @@ const App: FC = () => {
                                 value={todo}
                                 placeholder="Add a Task..."
                                 onChange={handleChange}
-                            /> */}
+                            />
                             <button
                                 type="submit"
                                 className="plus"
